@@ -47,7 +47,6 @@ class DepositoStrumenti:
             nuovo_numero = numero_ultimo_codice + 1
 
         nuovo_codice = f"S{nuovo_numero}"
-
         strumento = Strumento(nuovo_codice, tipo, marca, anno_acquisto, valore)
         self.strumenti.append(strumento)
 
